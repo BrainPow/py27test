@@ -1,0 +1,236 @@
+
+========================================
+- IP: 127.0.0.1
+- Jogador: 
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 928, in parsePacket
+    else: this.client.loginPlayer(playerName, password, startRoom)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 916, in loginPlayer
+    this.petEnd = 0 if this.pet == 0 else Utils.getTime() + rs['PetEnd']
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+========================================
+- IP: 127.0.0.1
+- Jogador: 
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 928, in parsePacket
+    else: this.client.loginPlayer(playerName, password, startRoom)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 916, in loginPlayer
+    this.petEnd = 0 if this.pet == 0 else Utils.getTime() + rs['PetEnd']
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+========================================
+- IP: 127.0.0.1
+- Jogador: 
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 928, in parsePacket
+    else: this.client.loginPlayer(playerName, password, startRoom)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 916, in loginPlayer
+    this.petEnd = 0 if this.pet == 0 else Utils.getTime() + rs['PetEnd']
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+========================================
+- IP: 127.0.0.1
+- Jogador: Tigrounette
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: Tigrounette
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: Tigrounette
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 802, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: Tigrounette
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: Avvatarts
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 1611, in parsePacket
+    this.client.tribulle.parseTribulleCode(code, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseTribulle.py", line 48, in parseTribulleCode
+    this.openTribe(packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseTribulle.py", line 236, in openTribe
+    this.interfaceTribe()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseTribulle.py", line 264, in interfaceTribe
+    for a, b in enumerate(str(info[3]).split("/")):
+TypeError: 'NoneType' object is not subscriptable
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 802, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 802, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767
+
+========================================
+- IP: 127.0.0.1
+- Jogador: K_s
+- Error: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\MainServer.py", line 777, in parseString
+    this.parsePackets.parsePacket(packetID, C, CC, packet)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParsePackets.py", line 834, in parsePacket
+    this.client.modoPwet.openModoPwet()
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ModoPwet.py", line 69, in openModoPwet
+    packet.writeUTF(this.server.reports[playerName]["reporters"][reporters]).writeShort(this.getProfileCheeseCount(this.server.reports[playerName]["reporters"][reporters])).writeUTF(this.server.reports[playerName]["comments"][reporters]).writeUnsignedByte(this.server.reports[playerName]["types"][reporters]).writeShort(reporters)
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ByteArray.py", line 25, in writeShort
+    this.bytes += pack('!h', int(value))
+error: 'h' format requires -32768 <= number <= 32767

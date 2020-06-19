@@ -1,0 +1,63 @@
+ï»¿
+============================================================
+- Time: 27/11/2017 - 15:17:10
+- Jogador: Aprendiz
+- Error comando: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseCommands.py", line 1033, in parseCommand
+    this.client.sendLogMessage(this.sendListFCHelp())
+AttributeError: ParseCommands instance has no attribute 'sendListFCHelp'
+
+============================================================
+- Time: 27/11/2017 - 15:46:39
+- Jogador: Where
+- Error comando: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseCommands.py", line 1023, in parseCommand
+    if (this.client.room.roomName == "*strm_" + this.client.playerName.lower()) or this.client.privLevel >= 7 or this.client.isFuncorp:
+AttributeError: Client instance has no attribute 'isFuncorp'
+
+============================================================
+- Time: 28/11/2017 - 08:12:41
+- Jogador: K_s
+- Error comando: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseCommands.py", line 1141, in parseCommand
+    player.sendPacket(Identifiers.send.Tribulle, ByteArray().writeShort(Identifiers.tribulle.send.ET_RecoitMessagePrive).writeUTF(this.client.Username).writeUTF(argsNotSplited).writeByte(this.client.langueByte).writeByte(0).toByteArray())
+AttributeError: Client instance has no attribute 'Username'
+
+============================================================
+- Time: 28/11/2017 - 08:12:47
+- Jogador: K_s
+- Error comando: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseCommands.py", line 1141, in parseCommand
+    player.sendPacket(Identifiers.send.Tribulle, ByteArray().writeShort(Identifiers.tribulle.send.ET_RecoitMessagePrive).writeUTF(this.client.Username).writeUTF(argsNotSplited).writeByte(this.client.langueByte).writeByte(0).toByteArray())
+AttributeError: Client instance has no attribute 'Username'
+
+============================================================
+- Time: 28/11/2017 - 14:14:26
+- Jogador: G_d
+- Error comando: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseCommands.py", line 1023, in parseCommand
+    if (this.client.room.roomName == "*strm_" + this.client.playerName.lower()) or this.client.privLevel >= 7 or this.client.isFuncorp:
+AttributeError: Client instance has no attribute 'isFuncorp'
+
+============================================================
+- Time: 28/11/2017 - 19:45:56
+- Jogador: K_s
+- Error comando: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseCommands.py", line 854, in parseCommand
+    this.client.sendStaffMessage("<font color='#06BC89'>~ <font color='#13E08E'>[HU]<font color='#13E08E'>"+message)
+UnboundLocalError: local variable 'message' referenced before assignment
+
+============================================================
+- Time: 28/11/2017 - 19:47:19
+- Jogador: K_s
+- Error comando: 
+Traceback (most recent call last):
+  File "C:\Users\danko\Downloads\PACK TRANSFORMICE 2017\Transformice 1.415 já editado\modules\ParseCommands.py", line 854, in parseCommand
+    this.client.sendStaffMessage("<font color='#06BC89'> ~ <font color='#13E08E'> [HU] <font color='#13E08E'>"+message)
+UnboundLocalError: local variable 'message' referenced before assignment
